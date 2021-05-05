@@ -20,17 +20,16 @@ Google collab ช่วง prepare: https://drive.google.com/file/d/1VwSjFmoqzpW
 Google collab ช่วง analysis : https://drive.google.com/file/d/1VwSjFmoqzpWG_X-F8W8lYSrT2dd9I7wS/view?usp=sharing
 
 THE STANFORDOPEN POLICINGPROJECT part 3 (final)
-
 medium article link:  
-https://medium.com/tanabut-taksinavongskukl/the-stanfordopen-policingproject-final-400a03eb346e
-github gist link:
-https://gist.github.com/TanabutT/4106063c035f0928d999044a561ae09d
-google colab link:
-https://colab.research.google.com/drive/1cCj4qGWQqVeYZnWflCPV0fOcc-N5pdAo?usp=sharing
+https://medium.com/tanabut-taksinavongskukl/the-stanfordopen-policingproject-final-400a03eb346e  
+github gist link:  
+https://gist.github.com/TanabutT/4106063c035f0928d999044a561ae09d  
+google colab link:  
+https://colab.research.google.com/drive/1cCj4qGWQqVeYZnWflCPV0fOcc-N5pdAo?usp=sharing  
 github link:  
-https://github.com/TanabutT/THE_STANFORD_OPEN_POLICINGPROJECT
-https://github.com/TanabutT/THE_STANFORD_OPEN_POLICINGPROJECT/blob/main/RIpolice_part3_final_submit.ipynb
----
+https://github.com/TanabutT/THE_STANFORD_OPEN_POLICINGPROJECT  
+https://github.com/TanabutT/THE_STANFORD_OPEN_POLICINGPROJECT/blob/main/RIpolice_part3_final_submit.ipynb  
+
 
 ### Summary in part final นี้จะมีหลักสำคัญดังนี้
 - จัดการ imbalance Data
