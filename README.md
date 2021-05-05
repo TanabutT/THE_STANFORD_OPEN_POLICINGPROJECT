@@ -21,3 +21,4 @@ Google collab ช่วง analysis : https://drive.google.com/file/d/1VwSjFmoqz
 
 THE STANFORDOPEN POLICINGPROJECT part 3 (final)
 
+test git pull
