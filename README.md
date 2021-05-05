@@ -24,19 +24,19 @@ THE STANFORDOPEN POLICINGPROJECT part 3 (final)
 https://github.com/TanabutT/THE_STANFORD_OPEN_POLICINGPROJECT/blob/main/RIpolice_part3_final_submit.ipynb
 ---
 
-Summary in part final นี้จะมีหลักสำคัญดังนี้
-จัดการ imbalance Data
-ใช้ feature selection เข้ามาช่วยซึ่งมีทั้งแบบ supervise และ unsupervise
-เลือก evaluation matric ที่เหมาะสมกับ application เพื่อที่จะทำการ Tune Hyperparameter และเปรียบเทียบผล
+### Summary in part final นี้จะมีหลักสำคัญดังนี้
+- จัดการ imbalance Data
+- ใช้ feature selection เข้ามาช่วยซึ่งมีทั้งแบบ supervise และ unsupervise
+- เลือก evaluation matric ที่เหมาะสมกับ application เพื่อที่จะทำการ Tune Hyperparameter และเปรียบเทียบผล
 
-application ของ ML model ที่จะทำนี้ objective หลักคือ
-ต้องการทำนายผ่านการเรียกของตำรวจไปโดยไม่โดนตรวจค้นภายในรถ โดยต้องการให้ค่าผิดพลาดในการทำนายพลาดน้อยที่สุด นั่นคือ สามารถรู้ได้ว่ารถที่จะใช้ทำงานขนของอะไรก็ตาม เมื่อโดนตำรวจเรียกแล้วจะไม่โดนตรวจค้นภายในรถ ผิดพลาดน้อยกว่า 5%
+### application ของ ML model ที่จะทำนี้ objective หลักคือ
+ต้องการทำนายการผ่านการเรียกของตำรวจไปโดยไม่โดนตรวจค้นภายในรถ โดยต้องการให้ค่าผิดพลาดในการทำนายพลาดน้อยที่สุด นั่นคือ สามารถรู้ได้ว่ารถที่จะใช้ทำงานขนของอะไรก็ตาม เมื่อโดนตำรวจเรียกแล้วจะไม่โดนตรวจค้นภายในรถ ผิดพลาดน้อยกว่า 5%
 
-จุดมุ่งหมายของการปรับปรุง Machine Learning model
-จัดการ imbalace data ในที่นี้เลือกใช้แบบไหนต้องลองดูกันว่าแบบไหนดีที่สุดจาก Random undersampling, Ensamble resampling, Class re-weight แต่ขอข้ามตัวที่เพิ่มข้อมูลที่เป็นการใช้ perfomance ของคอมพิวเตอร์สูงไปก่อนคือตัว Random oversampling และ SMOT (Synthetic Minority Oversampling Technique)
-ทดลองกับ machine learning โดยใช้หลักการ Multi-Fidelity Search ทั้ง grid serch และ random search
-ใช้ hyperband ช่วยในการ allocate resource เป็นการช่วยให้สามารถทำงานบนเครื่องคอมพิวเตอร์ที่ไม่ได้มี resource สูงมาก และประหยัดเวลากว่า gridsearch และ randomsearch
-เลือกดูค่าการวัดผลที่สอดคล้องกับการใช้งานจริงจาก coufusion matrix ในที่นี้้ต้องดูค่า recall จาก Precision-Recal Curve แล้วดูค่า Area under Precision-Recall Curve (AUC of PR-curve) and Average Precision (AP) ประกอบด้วย
-สุดท้ายจะใช้ค่า recall หลังจากทำการ fit เพื่อ train model เพื่อพิจารณานำไปใช้งานกับ application ที่ต้องการ
+### จุดมุ่งหมายของการปรับปรุง Machine Learning model
+- จัดการ imbalace data ในที่นี้เลือกใช้แบบไหนต้องลองดูกันว่าแบบไหนดีที่สุดจาก Random undersampling, Ensemble resampling, Class re-weight แต่ขอข้ามตัวที่เพิ่มข้อมูลที่เป็นการใช้ perfomance ของคอมพิวเตอร์สูงไปก่อนคือตัว Random oversampling และ SMOT (Synthetic Minority Oversampling Technique)
+- ทดลองกับ machine learning โดยใช้หลักการ Multi-Fidelity Search ทั้ง grid serch และ random search
+- ใช้ hyperband ช่วยในการ allocate resource เป็นการช่วยให้สามารถทำงานบนเครื่องคอมพิวเตอร์ที่ไม่ได้มี resource สูงมาก และประหยัดเวลากว่า gridsearch และ randomsearch
+- เลือกดูค่าการวัดผลที่สอดคล้องกับการใช้งานจริงจาก coufusion matrix ในที่นี้ต้องดูค่า recall จาก Precision-Recal Curve แล้วดูค่า Area under Precision-Recall Curve (AUC of PR-curve) and Average Precision (AP) ประกอบกัน
+- สุดท้ายจะใช้ค่า recall หลังจากทำการ fit เพื่อ train model เพื่อพิจารณานำไปใช้งานกับ application ที่ต้องการ
 
 ---
