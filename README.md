@@ -3,11 +3,11 @@
 Do police bias with black and Hispanic drivers and searched more often than whites?
 
 
-THE STANFORDOPEN POLICINGPROJECT part 1
+## THE STANFORDOPEN POLICINGPROJECT part 1
 
 https://medium.com/botnoi-classroom/the-stanfordopen-policingproject-66cfc2e3a2af?source=friends_link&sk=d2c169f546a7e49f63e2a8c402d18bae
 
-THE STANFORDOPEN POLICINGPROJECT part 2
+## THE STANFORDOPEN POLICINGPROJECT part 2
 https://tanabutt.medium.com/the-stanfordopen-policingproject-part-2-198ac6251858
 
 
@@ -19,7 +19,7 @@ GitHub ช่วง prepare: https://gist.github.com/TanabutT/83452915139c2e0069
 Google collab ช่วง prepare: https://drive.google.com/file/d/1VwSjFmoqzpWG_X-F8W8lYSrT2dd9I7wS/view?usp=sharing
 Google collab ช่วง analysis : https://drive.google.com/file/d/1VwSjFmoqzpWG_X-F8W8lYSrT2dd9I7wS/view?usp=sharing
 
-THE STANFORDOPEN POLICINGPROJECT part 3 (final)
+## THE STANFORDOPEN POLICINGPROJECT part 3 (final)
 medium article link:  
 https://medium.com/tanabut-taksinavongskukl/the-stanfordopen-policingproject-final-400a03eb346e  
 github gist link:  
